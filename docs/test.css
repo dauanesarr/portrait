@@ -12,6 +12,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 730px) {
@@ -76,6 +78,7 @@ nav ul li a {
   transition-duration: 0.7s;
   border-radius: 30px;
   box-shadow: 0 0 5px 5px #ffe2c6;
+  color: #ffa500;
 }
 
 ul li a:hover {
@@ -84,11 +87,11 @@ ul li a:hover {
 
 h1 {
   font-size: 250%;
-  color: #0B2161;
+  color: #f0f8ff;
   margin-top: 0;
   margin-bottom: 0;
   padding: 10px 10px 0;
-  text-shadow: 0px 0px 20px #fff;
+  text-shadow: 0px 0px 20px #ff6347;
   text-decoration: underline #fa8072;
 }
 
@@ -109,6 +112,9 @@ h3 {
   color: #fa8072;
 }
 
+em {
+  font-style: normal;
+}
 /*nav ul li {
   list-style-type: none;
   リストマーカーで無し
@@ -174,7 +180,7 @@ footer {
 #infbox {
   overflow: auto;
   width: 600px;
-  height: 80px;
+  height: 100px;
   margin: 0 auto;
   background-color: #fffaf0;
 }
