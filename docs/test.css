@@ -14,6 +14,13 @@ body {
   background-attachment: fixed;
 }
 
+@media only screen and (max-width: 750px) {
+
+  body {
+    background-color: #ccffe5;
+  }
+}
+
 /*wrapper-------------------------------------*/
 .wrapper {
   width: 700px;
@@ -24,7 +31,7 @@ body {
   padding-top: 5px;
 }
 
-/*枠線　削除予定------------------------------------*/
+/*枠線　削除予定------------------------------------
 div,header,nav,section,footer {
 /*    margin: 5px; ←外部余白：左右上下*/
 /*  padding: 5px;  ←内部余白：左右上下*/
