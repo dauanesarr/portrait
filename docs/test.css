@@ -30,7 +30,7 @@ body {
   margin: 30px auto;/* 25px 30pxでどうなるか検証*/
     border-radius: 30px;
   box-shadow: 0 0 5px 13px rgba(249, 252, 224, 0.4);
-  padding-top: 5px;
+  padding-top: 5px 15px;
 }
 
 /*枠線　削除予定------------------------------------
